@@ -18,7 +18,7 @@ init_db()
 
 @app.route("/")
 def home():
-    return "Welcome to the vulnerable app!"
+    return "Welcome to the completely secure app!"
 
 @app.route("/login")
 def login():
