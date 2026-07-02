@@ -16,6 +16,8 @@ def init_db():
 
 init_db()
 
+
+# Added a comment
 @app.route("/")
 def home():
     return "Welcome to the completely secure app!"
